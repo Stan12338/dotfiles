@@ -1,0 +1,24 @@
+2025/11/29-00:40:22.084 b350 Reusing MANIFEST /home/stan/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/11/29-00:40:22.109 b350 Recovering log #127
+2025/11/29-00:40:22.110 b350 Reusing old log /home/stan/.config/vesktop/sessionData/Local Storage/leveldb/000127.log 
+2025/11/29-00:41:22.115 b374 Level-0 table #132: started
+2025/11/29-00:41:22.126 b374 Level-0 table #132: 87980 bytes OK
+2025/11/29-00:41:22.130 b374 Delete type=0 #127
+2025/11/29-00:52:33.154 b374 Level-0 table #134: started
+2025/11/29-00:52:33.161 b374 Level-0 table #134: 34200 bytes OK
+2025/11/29-00:52:33.165 b374 Delete type=0 #131
+2025/11/29-00:56:22.552 b350 Level-0 table #136: started
+2025/11/29-00:56:22.559 b350 Level-0 table #136: 35007 bytes OK
+2025/11/29-00:56:22.563 b350 Delete type=0 #133
+2025/11/29-10:26:06.387 b374 Level-0 table #138: started
+2025/11/29-10:26:06.394 b374 Level-0 table #138: 36694 bytes OK
+2025/11/29-10:26:06.399 b374 Delete type=0 #135
+2025/11/29-10:26:06.399 b374 Compacting 4@0 + 1@1 files
+2025/11/29-10:26:06.403 b374 Generated table #139@0: 62 keys, 99425 bytes
+2025/11/29-10:26:06.403 b374 Compacted 4@0 + 1@1 files => 99425 bytes
+2025/11/29-10:26:06.407 b374 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/29-10:26:06.407 b374 Delete type=2 #132
+2025/11/29-10:26:06.407 b374 Delete type=2 #134
+2025/11/29-10:26:06.407 b374 Delete type=2 #129
+2025/11/29-10:26:06.407 b374 Delete type=2 #138
+2025/11/29-10:26:06.407 b374 Delete type=2 #136

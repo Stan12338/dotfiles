@@ -1,0 +1,82 @@
+@theme "/dev/null"
+@import "colors.rasi"
+
+configuration {
+    display-drun: "";
+    font: "monospace 12";
+    drun-display-format: "{icon} {name}";
+    show-icons: true;
+}
+
+
+* {
+    background-color: @surface;
+    text-color: @on-surface;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+
+window {
+    background-color: @surface;
+    width: 40%;
+    border-radius: 32;
+    padding: 12px 12px 12px;
+    border: 4;
+    border-color: @primary;
+}
+
+listview {
+    background-color: @surface;
+    columns: 1;
+    lines: 10;
+}
+
+inputbar {
+    children: [prompt, entry];
+    padding: 12 0 12 0;
+}
+
+prompt {
+    padding: 12 24;
+    margin: 0;
+    border-radius: 20 0 0 20;
+    text-color: @on-primary;
+    background-color: @primary;
+}
+
+entry {
+    background-color: @primary-container;
+    text-color: @on-primary-container;
+    padding: 12;
+    border-radius: 0 20 20 0;
+}
+
+
+
+
+
+element {
+    background-color: @surface;
+    border-radius: 20;
+    padding: 12;
+}
+
+element selected {
+    background-color: @primary;
+}
+
+element-text selected {
+    background-color: @primary;
+    text-color: @on-primary;
+}
+
+element-icon selected {
+    background-color: @primary;
+}
+
+
+

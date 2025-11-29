@@ -1,0 +1,7 @@
+background = #101418
+foreground = #e0e2e8
+cursor-color = #e0e2e8
+cursor-text = #c2c7cf
+selection-background = #bac8da
+selection-foreground = #243240
+palette = 4 = #9dcbfc

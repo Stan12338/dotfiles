@@ -1,0 +1,38 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "transition-type", "center", "--transition-setup", "15", "--transition-fps", "60"]
+set = true
+
+[templates.hyprland]
+input_path = '/home/stan/.config/matugen/templates/hyprland-colors.conf'
+output_path = '/home/stan/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.kitty]
+input_path = '/home/stan/.config/matugen/templates/kitty-colors.conf'
+output_path = '/home/stan/.config/kitty/colors.conf'
+post_hook = 'pkill -SIGUSR1 kitty'
+
+[templates.colors]
+input_path = '/home/stan/.config/matugen/templates/colors.json'
+output_path = '/home/stan/.config/quickshell/default/config/colors.json'
+post_hook = 'pkill qs; nohup qs >/dev/null 2>&1 &'
+
+[templates.vesktop]
+input_path = '/home/stan/.config/matugen/templates/midnight-discord.css'
+output_path = '~/.config/vesktop/themes/midnight-discord.css'
+
+[templates.ghostty]
+input_path = '/home/stan/.config/matugen/templates/ghostty'
+output_path = '~/.config/ghostty/themes/Matugen'
+post_hook = 'pkill -SIGUSR2 ghostty'
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava-colors.ini'
+output_path = '~/.config/cava/themes/your-theme'
+post_hook = "pkill -USR1 cava"
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
