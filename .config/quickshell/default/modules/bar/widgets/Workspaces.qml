@@ -1,0 +1,1 @@
+../../../../../../dotfiles/.config/quickshell/default/modules/bar/widgets/Workspaces.qml

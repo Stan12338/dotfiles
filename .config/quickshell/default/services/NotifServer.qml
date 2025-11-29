@@ -1,0 +1,1 @@
+../../../../dotfiles/.config/quickshell/default/services/NotifServer.qml

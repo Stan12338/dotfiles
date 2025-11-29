@@ -1,0 +1,1 @@
+../../../../../dotfiles/.config/quickshell/default/modules/quickSettings/QuickSettings.qml
