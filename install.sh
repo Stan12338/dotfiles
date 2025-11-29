@@ -9,6 +9,7 @@ repo_packages=(
     "gum"
     "nautilus"
     "nerd-fonts"
+    "starship"
     "ghostty"
     "xdg-desktop-portal-hyprland"
     "qt5-wayland"
@@ -50,7 +51,6 @@ aur_packages=(
     "ttf-fira-code"
     "ttf-firacode-nerd"
     "zen-browser-bin"
-    "vesktop-bin"
 )
 
 
