@@ -1,0 +1,1 @@
+../../dotfiles/.powerlevel10k/config/p10k-pure.zsh

@@ -1,0 +1,1 @@
+../../dotfiles/.powerlevel10k/internal/p10k.zsh

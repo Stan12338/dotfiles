@@ -1,0 +1,1 @@
+../../dotfiles/.powerlevel10k/config/p10k-lean-8colors.zsh

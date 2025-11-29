@@ -141,6 +141,8 @@ _cleanupConflicts() {
     rm -rf ~/.config/hypr
     rm -rf ~/.config/matugen
     rm -rf ~/.config/rofi
+    rm -rf ~/.powerlevel10k
+    rm -rf ~/.oh-my-zsh
 
     rm -f ~/.zshrc
 }
