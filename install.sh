@@ -28,8 +28,13 @@ repo_packages=(
     "qt5-graphicaleffects"
     "qt6-5compat"
     "qtsvg"
-    "qtimageformats"
-    "qtmultimedia"
+    "qt5-imageformats"
+    "qt6-imageformats"
+    "qt5-multimedia"
+    "qt6-multimedia"
+    "qt5-svg"
+    "qt6-svg"
+    "hyprlock"
 )
 
 # AUR packages
@@ -41,9 +46,6 @@ aur_packages=(
     "nvim" 
     "ttf-material-symbols-variable-git"
     "quickshell"
-    "hyprpaper"
-    "hyprlock"
-    "pywalfox"
     "ttf-font-awesome"
     "ttf-fira-sans"
     "ttf-fira-code"
