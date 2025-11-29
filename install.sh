@@ -7,8 +7,6 @@ repo_packages=(
     "unzip"
     "git"
     "gum"
-    "nmcli"
-    "nmtui"
     "nautilus"
     "nerd-fonts"
     "starship"
