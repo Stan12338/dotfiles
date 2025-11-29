@@ -9,7 +9,6 @@ repo_packages=(
     "gum"
     "nautilus"
     "nerd-fonts"
-    "starship"
     "ghostty"
     "xdg-desktop-portal-hyprland"
     "qt5-wayland"
