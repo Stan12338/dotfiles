@@ -34,6 +34,7 @@ repo_packages=(
     "qt5-svg"
     "qt6-svg"
     "hyprlock"
+    "swww"
 )
 
 # AUR packages
