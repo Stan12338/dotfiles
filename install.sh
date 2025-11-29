@@ -27,7 +27,6 @@ repo_packages=(
     "ddcutil"
     "qt5-graphicaleffects"
     "qt6-5compat"
-    "qtsvg"
     "qt5-imageformats"
     "qt6-imageformats"
     "qt5-multimedia"
