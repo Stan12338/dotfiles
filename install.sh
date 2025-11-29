@@ -35,10 +35,13 @@ repo_packages=(
     "qt6-svg"
     "hyprlock"
     "swww"
+    "archlinux-xdg-menu"
+    "hyprpolkitagent"
 )
 
 # AUR packages
 aur_packages=(
+    "grimblast-git"
     "hyprland"
     "wf-recorder"
     "grim"
