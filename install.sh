@@ -37,6 +37,7 @@ repo_packages=(
     "swww"
     "archlinux-xdg-menu"
     "hyprpolkitagent"
+    "clipmenu"
 )
 
 # AUR packages
@@ -130,11 +131,28 @@ _installAurPackages() {
     done
 }
 
+_cleanupConflicts() {
+    echo ":: Cleaning up conflicting config files before stow..."
+
+    rm -rf ~/.config/cava
+    rm -rf ~/.config/dconf
+    rm -rf ~/.config/ghostty
+    rm -rf ~/.config/fastfetch
+    rm -rf ~/.config/hypr
+    rm -rf ~/.config/matugen
+    rm -rf ~/.config/rofi
+
+    rm -f ~/.zshrc
+}
+
+
 _stowDotfiles() {
     if ! _checkCommandExists "stow"; then
         echo ":: Installing GNU stow..."
         sudo pacman -S --needed --noconfirm stow
     fi
+
+    _cleanupConflicts
 
     echo ":: Stowing dotfiles..."
     cd ~/dotfiles
